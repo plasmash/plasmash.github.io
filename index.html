@@ -1263,14 +1263,14 @@ footer {
       <div class="concept-card">
         <div class="concept-card-category">Structure</div>
         <h3>Topology</h3>
-        <p>Organizes computation. Topology sections map logical architecture to physical resources. Nodes allocate to topology, Agents and Applications attach to it. Each section gets the right compute profile.</p>
-        <pre><code><span class="hl-cm"># Topology distributes to components</span>
+        <p>Organizes computation. Zones map logical architecture to physical resources. Nodes allocate to zones, Agents and Applications attach to them. Each zone gets the right compute profile.</p>
+        <pre><code><span class="hl-cm"># Zones map logical → physical</span>
 <span class="hl-kw">cognition.data</span>    → GPU nodes
 <span class="hl-kw">foundation.kv</span>    → storage nodes
 <span class="hl-kw">interaction.obs</span>  → balanced nodes
 
 <span class="hl-cm"># Nodes allocate, components attach</span>
-<span class="hl-fn">node</span> →<span class="hl-kw"> topology</span> ←<span class="hl-fn"> {app, agent}</span></code></pre>
+<span class="hl-fn">node</span> →<span class="hl-kw"> zone</span> ←<span class="hl-fn"> {app, agent}</span></code></pre>
       </div>
 
       <div class="concept-card">
